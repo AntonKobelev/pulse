@@ -74,11 +74,10 @@
             margin-top: 35px;
         }
         .feed-form {
-            width: 100%;
+            margin: 20px auto;
         }
         .button {
             margin: 0 auto;
-            width: 100%;
             font-size: 15px;
         }
     }
@@ -126,17 +125,17 @@
     .consultation {
         padding: 70px 25px 70px 25px;
         min-height: 650px;
-        // h2 {
-        //     font-size: 23px;
-        //     line-height: 40px;
-        // }
+        h2 {
+            font-size: 23px;
+            line-height: 40px;
+        }
         &__descr {
             margin-top: 30px;
             font-size: 17px;
         }
-        // .feed-form {
-        //     width: 100%;
-        // }
+        .feed-form {
+            width: 100%;
+        }
         .button {
             width: 100%;
             font-size: 15px;
