@@ -2,6 +2,9 @@
 @import "header";
 @import "button";
 @import "advantage";
+@import "consultation";
+@import "titles";
+@import "forms";
 
 
 
@@ -20,6 +23,16 @@
             margin-top: 5px;
         }
     }
+    .consultation {
+        padding: 100px 40px 92px 40px;
+        h2 {
+            font-size: 30px;
+            br {
+                display: none;
+            }
+        }
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -49,6 +62,27 @@
             font-size: 15px;
         }
     }
+
+    .consultation {
+        h2 {
+            text-align: center;
+            font-size: 27px;
+            line-height: 40px;
+        }
+        &__descr {
+            text-align: center;
+            margin-top: 35px;
+        }
+        .feed-form {
+            width: 100%;
+        }
+        .button {
+            margin: 0 auto;
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+    
 
 }
 
@@ -89,4 +123,24 @@
         flex-direction: column;
         align-items:center;
     }
+    .consultation {
+        padding: 70px 25px 70px 25px;
+        min-height: 650px;
+        // h2 {
+        //     font-size: 23px;
+        //     line-height: 40px;
+        // }
+        &__descr {
+            margin-top: 30px;
+            font-size: 17px;
+        }
+        // .feed-form {
+        //     width: 100%;
+        // }
+        .button {
+            width: 100%;
+            font-size: 15px;
+        }
+
+}
 }
