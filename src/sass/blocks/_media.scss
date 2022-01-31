@@ -83,9 +83,7 @@
 @media (max-width: 575px) {
   .header {
     &__logo {
-      img {
-        width: 80%;
-      }
+      width: 55%;
     }
     &__phone {
       font-size: 12px;
@@ -112,7 +110,7 @@
       font-size: 14px;
     }
     .button {
-        width: 60%;
+        width: 100%;
       }
   }
   .button {
