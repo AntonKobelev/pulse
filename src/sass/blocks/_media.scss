@@ -7,6 +7,21 @@
 @import "forms";
 @import "carousel";
 
+
+@media (max-width: 1024px) {
+  .carousel {
+    .next {
+        right: 10px;
+      }
+    .prev {
+        left: 10px;
+      }  
+    .tns-outer {
+      margin: 0px 60px;
+    }
+    }
+}
+
 @media (max-width: 991px) {
   .promo {
     padding: 23px 20px 93px 20px;
@@ -31,6 +46,22 @@
       }
     }
   }
+  .carousel {
+    .next {
+        display: none;
+      }
+    .prev {
+      display: none;
+      }  
+    .tns-outer {
+      margin: 0px 80px;
+    }
+    .tns-item img {
+      width: 100%;
+    }
+
+    }
+  
 }
 
 @media (max-width: 767px) {
@@ -80,7 +111,12 @@
     }
   }
   .carousel {
-    
+    .tns-nav {
+      position: absolute;
+      top: 50px;
+    }
+
+
   }
 }
 

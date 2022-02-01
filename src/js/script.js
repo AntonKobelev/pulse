@@ -25,16 +25,16 @@ const slider = tns({
     controls: false, 
     nav: false,
     responsive: {
-        640: {
-          items: 1
+        320: {
+            items: 1,
+            nav: true
         },
-        700: {
-          gutter: 30
-        },
-        900: {
-          items: 1
+        1000: {
+            items: 1,
+            nav: false
         }
       }
+    
   });
 
   document.querySelector('.prev').addEventListener('click', function () {
