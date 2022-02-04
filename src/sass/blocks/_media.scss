@@ -9,19 +9,19 @@
 @import "catalog";
 
 
-@media (max-width: 1024px) {
-  .carousel {
-    .next {
-        right: 10px;
-      }
-    .prev {
-        left: 10px;
-      }  
-    .tns-outer {
-      margin: 0px 60px;
-    }
-    }
-}
+// @media (max-width: 1024px) {
+//   .carousel {
+//     // .next {
+//     //     right: 10px;
+//     //   }
+//     // .prev {
+//     //     left: 10px;
+//     //   }  
+//     .tns-outer {
+//       margin: 0px 60px;
+//     }
+//     }
+// }
 
 @media (max-width: 991px) {
   .promo {
@@ -47,32 +47,32 @@
       }
     }
   }
-  .carousel {
-    .next {
-        display: none;
-      }
-    .prev {
-      display: none;
-      }  
-    .tns-outer {
-      margin: 0px 50px;
-    }
-    .tns-item img {
-      width: 100%;
-    }
-    .tns-outer {
-      .tns-nav {
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        .tns-nav-active {
-          background-color: red;
-        }
-      }
-    }
+  // .carousel {
+  //   .next {
+  //       display: none;
+  //     }
+  //   .prev {
+  //     display: none;
+  //     }  
+  //   .tns-outer {
+  //     margin: 0px 50px;
+  //   }
+  //   .tns-item img {
+  //     width: 100%;
+  //   }
+  //   .tns-outer {
+  //     .tns-nav {
+  //       position: absolute;
+  //       top: 100%;
+  //       left: 50%;
+  //       transform: translateX(-50%);
+  //       .tns-nav-active {
+  //         background-color: red;
+  //       }
+  //     }
+  //   }
 
-  }
+  // }
   
 }
 
@@ -122,32 +122,32 @@
       font-size: 15px;
     }
   }
-  .carousel {
-    .next {
-        display: none;
-      }
-    .prev {
-      display: none;
-      }  
-    .tns-outer {
-      margin: 0px 50px;
-    }
-    .tns-item img {
-      width: 100%;
-    }
-    .tns-outer {
-      .tns-nav {
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        .tns-nav-active {
-          background-color: red;
-        }
-      }
-    }
+  // .carousel {
+  //   .next {
+  //       display: none;
+  //     }
+  //   .prev {
+  //     display: none;
+  //     }  
+  //   .tns-outer {
+  //     margin: 0px 50px;
+  //   }
+  //   .tns-item img {
+  //     width: 100%;
+  //   }
+  //   .tns-outer {
+  //     .tns-nav {
+  //       position: absolute;
+  //       top: 100%;
+  //       left: 50%;
+  //       transform: translateX(-50%);
+  //       .tns-nav-active {
+  //         background-color: red;
+  //       }
+  //     }
+  //   }
 
-  }
+  // }
   
 }
 
@@ -211,30 +211,30 @@
       font-size: 15px;
     }
   }
-  .carousel {
-    .next {
-        display: none;
-      }
-    .prev {
-      display: none;
-      }  
-    .tns-outer {
-      margin: 0px 20px;
-    }
-    .tns-item img {
-      width: 100%;
-    }
-    .tns-outer {
-      .tns-nav {
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        .tns-nav-active {
-          background-color: red;
-        }
-      }
-    }
+  // .carousel {
+  //   .next {
+  //       display: none;
+  //     }
+  //   .prev {
+  //     display: none;
+  //     }  
+  //   .tns-outer {
+  //     margin: 0px 20px;
+  //   }
+  //   .tns-item img {
+  //     width: 100%;
+  //   }
+  //   .tns-outer {
+  //     .tns-nav {
+  //       position: absolute;
+  //       top: 100%;
+  //       left: 50%;
+  //       transform: translateX(-50%);
+  //       .tns-nav-active {
+  //         background-color: red;
+  //       }
+  //     }
+  //   }
 
-  }
+  // }
 }
