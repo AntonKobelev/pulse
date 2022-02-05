@@ -1,0 +1,11 @@
+.reviews {
+    padding-bottom: 48px;
+    &__client {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__main {
+        width: 680px;
+    }
+}
