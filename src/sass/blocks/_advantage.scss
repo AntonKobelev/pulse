@@ -29,4 +29,13 @@
     font-weight: 300;
     font-size: 14px;
   }
+
+  &__icon {
+    &_animated {
+      animation: heartbeat 1.5s ease infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="ru">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +8,12 @@
         <link rel="stylesheet" href="css/blocks/bootstrap-reboot.min.css">
         <link rel="stylesheet" href="css/blocks/font.css">
         <link rel="stylesheet" href="css/blocks/slick.css"/>
+        <link rel="stylesheet" href="css/blocks/animate.css">
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"> -->
         <link rel="stylesheet" href="css/blocks/style.min.css">
     </head>
     <body>
-        <section class="promo">
+        <section id = "up" class="promo">
             <div class="container">
                 <header class="header">
                     <a href="#" class="header__logo">
@@ -23,7 +24,7 @@
                         <span>Garmin, Polar, Suunto</span>
                     </div>
                     <div class="header__contacts">
-                        <a href="tel: +74999228974" class="header__phone">+7 (499) 922-89-74</a>
+                        <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
                         <button data-modal="consultation" class="button">заказать звонок</button>
                     </div>
                 </header>
@@ -62,7 +63,7 @@
                         <div class="advantage__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                     </div>
                     <div class="advantage__item">
-                        <img src="img/icons/privelege/heart.png" alt="heart">
+                        <img src="img/icons/privelege/heart.png" alt="heart" class="advantage__icon advantage__icon_animated">
                         <div class="advantage__title">Заботимся о здоровье</div>
                         <div class="advantage__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
                     </div>
@@ -87,7 +88,7 @@
                 </form>
             </div>    
         </section>
-        <section class="carousel">
+        <div class="carousel">
             <div class="container">
                 <div class="carousel__inner">
                     <div><img src="img/icons/carousel/slide_1.png" alt="slide_1"></div>
@@ -97,7 +98,7 @@
                 <!-- <button type="button" class="prev"><img src = "../img/icons/carousel/chevron_left.png"></button>
                 <button type="button" class="next"><img src = "../img/icons/carousel/chevron_right.png"></button> -->
             </div>
-        </section>
+        </div>
         <section class="catalog">
             <div class="container">
                 <h2 class="title">Каталог пульсометров</h2>
@@ -342,7 +343,7 @@
         <section class="reviews">
             <div class="container">
                 <h2 class="title">отзывы клиентов</h2>
-                <div class="reviews__client">
+                <div class="reviews__client fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/icons/feedback/photo_1.png" alt="photo_1" class="reviews__img">
                     <div class="reviews__main">
                         <div class="reviews__name">Ирина Иванченко</div>
@@ -351,7 +352,7 @@
                     </div> 
                 </div>
                 <hr>
-                <div class="reviews__client">
+                <div class="reviews__client fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/icons/feedback/photo_2.png" alt="photo_2" class="reviews__img">
                     <div class="reviews__main">
                         <div class="reviews__name">Иван Сёмочкин</div>
@@ -360,7 +361,7 @@
                     </div> 
                 </div>
                 <hr>
-                <div class="reviews__client">
+                <div class="reviews__client fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/icons/feedback/photo_3.png" alt="photo_3" class="reviews__img">
                     <div class="reviews__main">
                         <div class="reviews__name">Юлия Дашкина</div>
@@ -417,15 +418,22 @@
             </div>
         </div>
 
+        <a href="#up" class="pageup">
+            <img src="img/icons/chevron_circle_up.svg" alt="up">
+        </a>
+        
+
         
 
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script src = "js/slick.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src ="js/slick.min.js"></script>
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> -->
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/wow.min.js"></script>
+
         <script src="js/script.js"></script>
      
     </body>
